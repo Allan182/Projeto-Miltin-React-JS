@@ -1,27 +1,76 @@
 .AlunoPost {
     display: flex;
-    padding: 50px;
-    height: 100%;
+    width: 100%;
     align-items: center;
     margin: 0 auto;
+    flex-direction: column;
+}
+
+.subtitle {
+    padding: 10px;
+    color: rgb(148, 148, 148);
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.container {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+}
+
+.sobreMim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 50%;
+    border-right: 2px solid white;
+}
+
+.sobreMim h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0px 1.5px 2px rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.sobreMim p {
+    color: rgb(163, 163, 163);
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.322);
+
 }
 
 .AlunoDescricao {
-    flex-grow: 0.5;
-    background-color: rgb(248, 248, 248);
-    color: #565656;
-    font-size: 28px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    color: rgb(163, 163, 163);
+    font-size: 1.5rem;
     border-radius: 20px;
     padding: 60px;
-    box-shadow: 1px 1px 2px 1px rgb(255, 255, 255);
-    
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.322);
+
 }
 
+.AlunoDescricao h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0px 1.5px 2px rgb(0, 0, 0);
+}
 
-h1 {
-    text-shadow: 1px 1px 1px rgba(152, 152, 152, 0.5);
-    color: #565656;
+.title {
+    text-shadow: 0px 1.5px 2px rgb(0, 0, 0);
+    color: white;
     font-weight: 900;
     text-align: center;
+    font-size: 2.8rem;
 }

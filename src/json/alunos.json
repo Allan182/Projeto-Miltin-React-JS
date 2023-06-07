@@ -3,7 +3,7 @@
         "id": 1,
         "nome": "João",
         "idade": 20,
-        "slug": "joao",
+        "slug": "sg-joao",
         "disciplinas": [
             {
                 "nome": "Matemática",
@@ -19,7 +19,7 @@
         "id": 2,
         "nome": "Maria",
         "idade": 19,
-        "slug": "maria",
+        "slug": "sg-maria",
         "disciplinas": [
             {
                 "nome": "Física",
@@ -35,7 +35,7 @@
         "id": 3,
         "nome": "Pedro",
         "idade": 21,
-        "slug": "pedro",
+        "slug": "sg-pedro",
         "disciplinas": [
             {
                 "nome": "Química",
@@ -51,7 +51,7 @@
         "id": 4,
         "nome": "Ana",
         "idade": 18,
-        "slug": "ana",
+        "slug": "sg-ana",
         "disciplinas": [
             {
                 "nome": "Matemática",
@@ -67,7 +67,7 @@
         "id": 5,
         "nome": "Carlos",
         "idade": 19,
-        "slug": "carlos",
+        "slug": "sg-carlos",
         "disciplinas": [
             {
                 "nome": "História",
@@ -84,7 +84,7 @@
         "id": 6,
         "nome": "Lucas",
         "idade": 21,
-        "slug": "lucas",
+        "slug": "sg-lucas",
         "disciplinas": [
             {
                 "nome": "Literatura",

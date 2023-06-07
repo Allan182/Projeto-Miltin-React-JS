@@ -6,12 +6,12 @@
 }
 
 .titleList {
-
     color: rgb(23, 21, 21);
     background-color: white;
     width: 50%;
     margin: 15px auto;
     font-size: 3.2rem;
     padding: 20px;
+    text-align: center;
 }
 
