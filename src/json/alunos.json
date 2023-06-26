@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "nome": "João",
+        "idade": 20,
+        "slug": "joao",
+        "disciplinas": [
+            {
+                "nome": "Matemática",
+                "professor": "Maria"
+            },
+            {
+                "nome": "História",
+                "professor": "Carlos"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Maria",
+        "idade": 19,
+        "slug": "maria",
+        "disciplinas": [
+            {
+                "nome": "Física",
+                "professor": "Pedro"
+            },
+            {
+                "nome": "Inglês",
+                "professor": "Ana"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "Pedro",
+        "idade": 21,
+        "slug": "pedro",
+        "disciplinas": [
+            {
+                "nome": "Química",
+                "professor": "Marta"
+            },
+            {
+                "nome": "Geografia",
+                "professor": "Paulo"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "nome": "Ana",
+        "idade": 18,
+        "slug": "ana",
+        "disciplinas": [
+            {
+                "nome": "Matemática",
+                "professor": "João"
+            },
+            {
+                "nome": "Física",
+                "professor": "Maria"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "nome": "Carlos",
+        "idade": 19,
+        "slug": "carlos",
+        "disciplinas": [
+            {
+                "nome": "História",
+                "professor": "Pedro"
+            },
+            {
+                "nome": "Geografia",
+                "professor": "Marta"
+            }
+        ]
+    },
+    
+    {
+        "id": 6,
+        "nome": "Lucas",
+        "idade": 21,
+        "slug": "lucas",
+        "disciplinas": [
+            {
+                "nome": "Literatura",
+                "professor": "Carlos"
+            },
+            {
+                "nome": "Filosofia",
+                "professor": "Pedro"
+            }
+        ]
+    }
+]

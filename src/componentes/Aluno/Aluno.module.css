@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    color: #565656;
+}
+
+p{
+    padding: 3px 0;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #393939;
+    padding: 5px 0 ;
+}
+
+.post {
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgb(244, 244, 244);
+    padding: 20px;    
+    cursor: pointer;
+    display: flex;        
+}
+
+.post:hover {
+    background-color: rgb(235, 255, 249);
+}
+
+.container {
+    flex-grow: 4;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+span.slug {
+    align-self: end;
+    font-style: italic;
+    font-weight: 600;
+}

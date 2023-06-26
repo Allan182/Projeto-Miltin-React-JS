@@ -1,0 +1,9 @@
+html, body {
+  overflow-x: hidden;
+}
+
+.main {
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+}
