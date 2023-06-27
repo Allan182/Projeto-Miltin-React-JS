@@ -19,6 +19,7 @@ h2{
 .post {
     margin: 0 auto;
     width: 50%;
+    height: 35vh;
     background-color: rgb(244, 244, 244);
     padding: 20px;    
     cursor: pointer;

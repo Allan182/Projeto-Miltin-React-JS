@@ -1,23 +1,29 @@
+import { Link } from 'react-router-dom'
 import styles from './Aluno.module.css'
 
 export default function Aluno(props) {
 
     return (
 
-        <div className={styles.post}>
 
-            <div className={styles.container}>
+        <Link to={`${'/alunos/' + props.aluno.id}`}>
 
-                <h2>  {props.aluno.nome}  </h2>
+            <div className={styles.post}>
 
-                <p> Idade : {props.aluno.idade} </p>
+                <div className={styles.container}>
 
-                <p>  <p> Disciplinas Cadastradas : </p>  {props.aluno.disciplinas.map(e => <p> Nome: {e.nome + " | " + "Professor: " + e.professor} </p>)} </p>
+                    <h2>  {props.aluno.nome}  </h2>
 
-                <span className={styles.slug}>{props.aluno.slug}</span>
+                    <p> Idade : {props.aluno.idade} </p>
 
+                    <p>  <p> Disciplinas Cadastradas : </p>  {props.aluno.disciplinas.map(e => <p> Nome: {e.nome + " | " + "Professor: " + e.professor} </p>)} </p>
+
+                    <span className={styles.slug}>{props.aluno.slug}</span>
+
+                </div>
             </div>
-        </div>
+            
+        </Link>
 
     )
 }

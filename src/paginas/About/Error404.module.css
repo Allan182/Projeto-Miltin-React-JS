@@ -1,0 +1,50 @@
+
+.NaoEncontrada p {
+    font-size: 18px;
+    color: #565656;
+}
+
+.btVoltar {
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 600;    
+    max-width: 240px;
+    margin: 25px;
+    background-color: #565656;
+    color:rgb(248, 248, 248);
+    box-shadow: 1px 1px 2px #878787;
+    padding: 20px 60px;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    transition: background-color 0.6s ease;
+}
+
+.btVoltar:hover {    
+   background-color: black;
+}
+
+.error {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff; 
+    font-size: 6em;
+    padding: 4rem;
+    margin: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px  1px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.title{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.notFound {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

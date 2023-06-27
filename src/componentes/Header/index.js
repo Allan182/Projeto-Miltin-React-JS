@@ -19,7 +19,11 @@ export default function Header() {
 
                 <ul>
                     <li>
-                        <Link to='/'>Inicio</Link>
+                        <Link to='/'>Home</Link>
+                    </li>
+
+                    <li>
+                        <Link to='/about'>About</Link>
                     </li>
 
 
