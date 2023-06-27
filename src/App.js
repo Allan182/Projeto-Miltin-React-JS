@@ -4,6 +4,7 @@ import Inicio from "./paginas/Inicio"
 import Error404 from "./paginas/Error404";
 import AlunoPost from "./paginas/AlunoPost";
 import styles from "./App.module.css";
+import About from "./paginas/About";
 
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path="/alunos/:id" element={<AlunoPost />} />
+          <Route path="/about" element={<About />} />
           <Route path='*' element={<Error404 />} />
         </Routes>
       </BrowserRouter>
