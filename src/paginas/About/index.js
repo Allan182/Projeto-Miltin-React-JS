@@ -1,5 +1,5 @@
 
-import styles from './Error404.module.css'
+import styles from './About.module.css'
 
 function About() {
 
@@ -14,8 +14,7 @@ function About() {
       </p>
 
       <div className={styles.container}>
-
-
+        
         <p className={styles.paragraph}>
           <h1> King School </h1>
 

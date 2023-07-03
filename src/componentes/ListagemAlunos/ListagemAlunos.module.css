@@ -15,3 +15,37 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 650px) {
+    .titleList {
+        font-size: 2.2rem;
+
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .titleList {
+        font-size: 2rem;
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .titleList {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .titleList {
+        font-size: 1.3rem;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .post {
+        height: 45vh;
+
+    }
+}

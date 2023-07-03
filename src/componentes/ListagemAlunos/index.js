@@ -2,9 +2,8 @@
 import styles from './ListagemAlunos.module.css'
 import alunos from '../../json/alunos.json'
 import Aluno from '../Aluno'
-import { Link } from 'react-router-dom'
 
-export default function ListagemDeAlunos(props) {
+export default function ListagemDeAlunos() {
 
     return (
         

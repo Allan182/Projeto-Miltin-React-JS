@@ -1,0 +1,165 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    padding: 0px 2.3rem;
+    color: #ffffff;
+    font-size: 3em;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.paragraph {
+    width: 30%;
+    background-color: white;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 20px 35px;
+    color: rgb(45, 45, 45);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.paragraph h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.containerImage {
+    width: 60%;
+    background-image: url(https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+
+.subtitle {
+    color: rgb(174, 174, 174);
+    padding: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 2.5rem
+}
+
+@media only screen and (max-width: 1150px) {
+    .container {
+        width: 80%;
+    }
+
+    .paragraph {
+        font-size: 12px;
+        text-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    .container {
+        width: 80%;
+    }
+
+    .paragraph {
+        font-size: 10px;
+        text-shadow: none;
+    }
+
+    .containerImage {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .paragraph h1 {
+        font-size: 16px;
+    }
+
+    .paragraph {
+        padding: 15px;
+        font-size: 10px;
+        text-shadow: none;
+    }
+
+    .containerImage {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .paragraph h1 {
+        font-size: 16px;
+    }
+
+    .paragraph {
+        font-size: 9px;
+        text-shadow: none;
+        padding: 10px;
+    }
+
+    .containerImage {
+        width: 350px;
+    }
+
+    .paragraph .about h1 {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .title {
+        font-size: 25px;
+    }
+
+    .subtitle{
+        font-size: 12px;
+    }
+    .paragraph h1 {
+        font-size: 14px;
+    }
+
+    .paragraph {
+        font-size: 8px;
+        text-shadow: none;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    .title {
+        font-size: 25px;
+    }
+
+    .subtitle{
+        font-size: 8.5px;
+    }
+
+    .paragraph {
+        font-size: 7.5px;
+        text-shadow: none;  
+        padding: 10px;
+    }
+
+    
+    .paragraph h1 {
+        font-size: 10px;
+        text-shadow: none;
+    }
+
+    .container{
+        padding: 0;
+    }
+
+}

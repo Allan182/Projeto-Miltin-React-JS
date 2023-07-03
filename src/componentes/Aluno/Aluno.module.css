@@ -3,17 +3,17 @@ a {
     color: #565656;
 }
 
-p{
+p {
     padding: 3px 0;
 }
 
 
-h2{
+h2 {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     color: #393939;
-    padding: 5px 0 ;
+    padding: 5px 0;
 }
 
 .post {
@@ -22,9 +22,9 @@ h2{
     width: 50%;
     height: 35vh;
     background-color: rgb(255, 255, 255);
-    padding: 20px;    
+    padding: 20px;
     cursor: pointer;
-    display: flex;        
+    display: flex;
 }
 
 .post:hover {
@@ -45,3 +45,32 @@ span.slug {
     font-style: italic;
     font-weight: 600;
 }
+
+
+@media only screen and (max-width: 630px) {
+    .post {
+        height: 40vh;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .post {
+        height: 45vh;
+      
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .post {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .post {
+        height: 60vh;
+    }
+}
+

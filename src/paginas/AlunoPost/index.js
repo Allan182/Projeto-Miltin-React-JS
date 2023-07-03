@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import alunos from "../../json/alunos.json"
 import Error404 from "../Error404";
-import styles from './PostPage.module.css'
+import styles from './AlunoPost.module.css'
 
 function AlunoPost() {
 
@@ -23,7 +23,6 @@ function AlunoPost() {
         <p className={styles.subtitle}> I'm a back-end web developer </p>
 
         <div className={styles.container}>
-
           <div className={styles.sobreMim}>
             <p> <h1>  Sobre mim </h1>   I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. Vitae sapien pellentesque habitant morbi tristique senectus et. Aenean sed adipiscing diam donec adipiscing tristique risus.
             </p>

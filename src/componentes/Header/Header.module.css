@@ -1,4 +1,4 @@
-header{
+header {
     margin-bottom: 2.5rem;
 }
 
@@ -13,12 +13,13 @@ header{
     padding: 1.5rem;
 }
 
-.title{
+.title {
     width: 20vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -26,7 +27,7 @@ header{
     font-size: 24px;
 }
 
-.logoKing{
+.logoKing {
     margin-right: 5px;
     display: flex;
     width: 2.3vw;
@@ -42,15 +43,50 @@ header{
     background-color: transparent;
     font-size: 18px;
     color: white;
-    font-weight: 600;    
+    font-weight: 600;
     max-width: 240px;
     margin: 10px;
     padding: 10px 20px;
     display: block;
     text-decoration: none;
     text-align: center;
-}   
+}
 
 .container a:hover {
     color: rgb(178, 178, 178);
+}
+
+
+@media only screen and (max-width: 760px) {
+    .logo {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    .title img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        font-size: 14px;
+    }
+
+    .title img {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .logo {
+        font-size: 12px;
+    }
 }
