@@ -97,7 +97,7 @@
     }
 
     .paragraph {
-        font-size: 9px;
+        font-size: 9.5px;
         text-shadow: none;
         padding: 10px;
     }
@@ -122,7 +122,7 @@
     }
 
     .subtitle{
-        font-size: 12px;
+        font-size: 9px;
     }
     .paragraph h1 {
         font-size: 14px;
@@ -143,11 +143,11 @@
     }
 
     .subtitle{
-        font-size: 8.5px;
+        font-size: 7.5px;
     }
 
     .paragraph {
-        font-size: 7.5px;
+        font-size: 6.5px;
         text-shadow: none;  
         padding: 10px;
     }

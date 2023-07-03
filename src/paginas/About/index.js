@@ -14,7 +14,7 @@ function About() {
       </p>
 
       <div className={styles.container}>
-        
+
         <p className={styles.paragraph}>
           <h1> King School </h1>
 

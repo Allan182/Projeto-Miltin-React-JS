@@ -14,15 +14,14 @@ export default function Aluno(props) {
 
                     <h2>  {props.aluno.nome}  </h2>
 
-                    <p> Idade : {props.aluno.idade} </p>
+                    <p> Idade : {props.aluno.idade} 
+                    <p>  <p> Disciplinas Cadastradas : </p>  {props.aluno.disciplinas.map(e => <p> Nome: {e.nome + " | " + "Professor: " + e.professor} </p>)} </p> </p>
 
-                    <p>  <p> Disciplinas Cadastradas : </p>  {props.aluno.disciplinas.map(e => <p> Nome: {e.nome + " | " + "Professor: " + e.professor} </p>)} </p>
-
-                    <span className={styles.slug}>{props.aluno.slug}</span>
+                    <span className={styles.slug}>{props.aluno.slug} </span>
 
                 </div>
             </div>
-            
+
         </Link>
 
     )
