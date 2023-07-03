@@ -47,7 +47,7 @@ span.slug {
 
 @media only screen and (max-width:700px) {
     .post {
-        height: 40vh;
+        height: 70vh;
     }
 }
 
@@ -55,26 +55,26 @@ span.slug {
 
 @media only screen and (max-width: 630px) {
     .post {
-        height: 35vh;
+        height: 60vh;
         width: 70%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .post {
-        height: 35vh;
+        height: 60vh;
     }
 }
 
 
 @media only screen and (max-width: 450px) {
     .post {
-        height: 40vh;
+        height: 70vh;
     }
 }
 
 @media only screen and (max-width: 350px) {
     .post {
-        height: 50vh;
+        height: 80vh;
     }
 }
