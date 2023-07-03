@@ -19,7 +19,7 @@ h2 {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     margin: 0 auto;
     width: 50%;
-    height: 35vh;
+    height: 30vh;
     background-color: rgb(255, 255, 255);
     padding: 20px;
     cursor: pointer;
@@ -47,7 +47,7 @@ span.slug {
 
 @media only screen and (max-width:700px) {
     .post {
-        height: 70vh;
+        height: 50vh;
     }
 }
 
